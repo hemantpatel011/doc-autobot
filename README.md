@@ -51,17 +51,9 @@ doc-autobot contributing
 doc-autobot both
 ```
 
-### Local Installation (for project-specific use or development)
+### Without Global Installation (for project-specific use )
 
-If you prefer to install it as a development dependency for a specific project:
-
-```bash
-npm install --save-dev doc-autobot
-# OR
-yarn add --dev doc-autobot
-```
-
-Then, you can run it using `npx` (if installed with npm) or by defining a script in your `package.json`:
+You can run it using `npx`:
 
 ```bash
 npx doc-autobot
