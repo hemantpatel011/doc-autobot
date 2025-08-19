@@ -11,25 +11,25 @@ const generateContributingContent = (answers) => {
   content += `## 🚀 How to Contribute\n\n`;
   content += `1. **Fork the repository.**\n`;
   content += `2. **Create a new branch:**\n`;
-  content += `   \
+  content += `   
 `;
   content += `   git checkout -b my-new-feature\
 `;
-  content += `   \
+  content += `   \n
 `;
   content += `3. **Make your changes and commit them:**\n`;
-  content += `   \
+  content += `   
 `;
   content += `   git commit -m 'Add some feature'\
 `;
-  content += `   \
+  content += `   \n
 `;
   content += `4. **Push to the branch:**\n`;
-  content += `   \
+  content += `   
 `;
   content += `   git push origin my-new-feature\
 `;
-  content += `   \
+  content += `   \n
 `;
   content += `5. **Submit a pull request.**\n\n`;
 
