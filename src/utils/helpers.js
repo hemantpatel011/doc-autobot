@@ -37,7 +37,7 @@ export const getProjectContent = (dir) => {
   for (const file of files) {
     const fullPath = path.join(dir, file);
     const stats = fs.statSync(fullPath);
-    if (file !== 'node_modules' && file !== '.git') {
+    if (file !== 'node_modules' && file !== '.git' && file !== 'README.md') {
       if (stats.isDirectory()) {
         content += getProjectContent(fullPath);
       } else {
