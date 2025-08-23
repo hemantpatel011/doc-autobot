@@ -9,7 +9,12 @@ import chalk from 'chalk';
 export const generateReadme = async (projectDetails) => {
   console.log('Reading project content...');
   const projectContent = getProjectContent(projectDetails.rootPath);
-  const readmeContent = await generateReadmeFromProject(projectContent);
-  fs.writeFileSync('README.md', readmeContent);
-  console.log(chalk.green('Successfully generated README.md'));
+  try{
+      const readmeContent = await generateReadmeFromProject(projectContent);
+      fs.writeFileSync('README.md', readmeContent);
+      console.log(chalk.green('Successfully generated README.md'));
+  }catch(error){
+      console.error(chalk.red('Failed to generate README.md with Gemini:', error));
+  }
+
 };

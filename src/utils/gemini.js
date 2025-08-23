@@ -17,7 +17,7 @@ const genAI = new GoogleGenerativeAI(API_KEY);
 // It uses the Gemini AI model to generate a professional README.md file based on the provided project content
 export const generateReadmeFromProject = async (projectContent) => {
   if (!API_KEY) {
-    return 'Could not generate README.md because Gemini API key is not set.';
+    throw new Error('Gemini API key is not set.');
   }
 
   // Using the Gemini AI model to generate content
@@ -58,6 +58,6 @@ export const generateReadmeFromProject = async (projectContent) => {
     return text;
   } catch (error) {
     console.error('Error generating README.md with Gemini:', error);
-    return 'Could not generate README.md due to an error.';
+  
   }
 };
