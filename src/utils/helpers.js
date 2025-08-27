@@ -25,8 +25,56 @@ export const getProjectDetails = () => {
 };
 
 // Whitelisted file extensions and configuration files
-const whitelistedExtensions = ['.js', '.jsx', '.ts', '.tsx', '.json', '.md', '.html', '.css', '.scss'];
-const whitelistedFiles = ['package.json', 'webpack.config.js', 'babel.config.js', '.eslintrc.js'];
+// Programming & scripting languages
+const whitelistedExtensions = [
+  // Common languages
+  '.js', '.jsx', '.ts', '.tsx', '.java', '.py', '.rb', '.php', '.go', '.rs', '.kt', '.swift', '.c', '.cpp', '.h', '.cs',
+  
+  // Web & Styling
+  '.html', '.css', '.scss', '.sass', '.less',
+  
+  // Config/Meta
+  '.json', '.yaml', '.yml', '.toml', '.ini',
+  
+  // Docs
+  '.md', '.rst',
+  
+  // Build/Infra
+  '.dockerfile', '.sh', '.bat', '.makefile'
+];
+
+
+// Config, metadata & docs
+const whitelistedFiles = [
+  // Node/Frontend
+  'package.json', 'webpack.config.js', 'babel.config.js', 'vite.config.js', 'tsconfig.json', '.eslintrc.js',
+  
+  // Python
+  'requirements.txt', 'pyproject.toml', 'setup.py', 'Pipfile',
+  
+  // Java
+  'pom.xml', 'build.gradle', 'settings.gradle',
+  
+  // PHP
+  'composer.json',
+  
+  // Rust
+  'Cargo.toml',
+  
+  // Go
+  'go.mod', 'go.sum',
+  
+  // C/C++
+  'CMakeLists.txt', 'Makefile',
+  
+  // Docker/K8s
+  'Dockerfile', 'docker-compose.yml',
+  
+  // Infra
+  '.github/workflows', 'Jenkinsfile', 'azure-pipelines.yml'
+];
+
+
 
 // Function to get the content of the project directory
 // It reads all files and directories recursively and returns their content as a string

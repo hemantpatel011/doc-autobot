@@ -21,29 +21,36 @@ export const generateReadmeFromProject = async (projectContent) => {
   }
 
   // Using the Gemini AI model to generate content
-  const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+  const model = genAI.getGenerativeModel({ model: 'gemini-2.5-pro' });
 
   // Prompt for the Gemini AI model to generate README.md content
   const prompt = `
-    Acts as a Experience documentation writer. Based on the following project content, generate a professional README.md file.
+    Acts as a professional README.md documentation writer. Based on the following project content, generate a professional README.md file.
     The README.md should include the following sections:
-    - Project name & description
-    - Screenshots (add placeholders)
-    - Features and functionalities
-    - Available npm/yarn scripts
-    - Installation steps (frontend + backend separately)
-    - Tech stack (React, Node.js, Express, MongoDB, other dependencies)
-    - Environment variables (if any)
+    - Badges (npm, Python, GitHub Actions, Docker, Made with doc-autobot. etc)
+    - Project name 
+    - Project description
+    - Table of contents 
+    - Features and functionalities 
+    - Screenshots or demo (if applicable)
+    - Prerequisites (if any)
+    - Installation Steps (auto-detected per stack)
+    - Tech Stack (auto-detected)
+    - Environment variables (if any based on project content root/client/server)
     - Database schema (if applicable)
-    - Folder structure overview
-    - API documentation (if applicable)
+    - API/CLI Commands (if applicable)
+    - Folder Structure (tree)
     - Future improvements or roadmap(if applicable)
     - Contribution guidelines (link to CONTRIBUTING.md)
     - License (default to MIT)
-    - Author information
+    - Contact/Author Info
     - Acknowledgements (if any)
 
-    If there is not an information of any section don't incude those sections. 
+    if there is no information about any section, don't include that section in the README.md.
+    If there is any code snippet, format it properly using markdown syntax highlighting.
+    if there are any commands, format them properly using markdown syntax highlighting.
+    if there is any other section, format it properly using markdown syntax highlighting.
+    
     Ensure the README.md is well-structured, easy to read, and formatted with Markdown. Don't give extra text i want markdown only.
 
     Here is the project content:

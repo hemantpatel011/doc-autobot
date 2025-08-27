@@ -1,7 +1,7 @@
 # Doc Autobot 🤖
 
 ![Doc Autobot Logo](https://img.shields.io/badge/Doc%20Autobot-CLI%20Tool-blue?style=for-the-badge&logo=github)
-![Version](https://img.shields.io/badge/version-1.0.2-blue?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.0.3-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 
 **Doc Autobot** is a powerful Command Line Interface (CLI) tool that automates creating `README.md` and `CONTRIBUTING.md` files for your projects. Leveraging Gemini AI, it generates comprehensive, professional, and context-aware documentation, saving you time and effort.

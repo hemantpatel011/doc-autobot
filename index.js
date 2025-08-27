@@ -14,8 +14,8 @@ const program = new Command();
 // Set up the command line interface with commands and descriptions
 program
   .name('doc-autobot')
-  .description('A CLI tool to automatically generate README.md and CONTRIBUTING.md files for MERN stack projects.')
-  .version('1.0.0');
+  .description('A CLI tool to automatically generate `README.md` and `CONTRIBUTING.md` files for your projects. Doc Autobot streamlines the documentation process by leveraging AI to generate comprehensive and professional project documentation.')
+  .version('1.0.3');
 
 // Get project details from package.json or current working directory
 // This will be used to generate the README.md and CONTRIBUTING.md files

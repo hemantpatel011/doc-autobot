@@ -1,6 +1,6 @@
 {
   "name": "doc-autobot",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A CLI tool to automatically generate `README.md` and `CONTRIBUTING.md` files for your projects. Doc Autobot streamlines the documentation process by leveraging AI to generate comprehensive and professional project documentation.",
   "main": "index.js",
   "type": "module",
