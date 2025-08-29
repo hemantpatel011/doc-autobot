@@ -1,12 +1,9 @@
 # Doc Autobot 🤖
 
 ![Doc Autobot Logo](https://img.shields.io/badge/Doc%20Autobot-CLI%20Tool-blue?style=for-the-badge&logo=github)
-<<<<<<< HEAD
-![Version](https://img.shields.io/badge/version-1.0.5-blue?style=for-the-badge)
-=======
-![Version](https://img.shields.io/badge/version-1.0.3-yellow?style=for-the-badge)
->>>>>>> 33d74a22fd421f1803f4bc87e775254d835032ed
+![Version](https://img.shields.io/badge/version-1.0.5-yellow?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
+[![Made with doc-autobot](https://img.shields.io/badge/Made%20with-doc--autobot🤖-blue?style=for-the-badge)](https://github.com/hemantpatel011/doc-autobot.git)
 
 ### 🔍 What is Doc Autobot?
 
@@ -171,4 +168,4 @@ Give a ⭐️ if you find this project useful!
 
 Thanks to the developers of the open-source libraries that made this project possible.
 
-[![Made with doc-autobot](https://img.shields.io/badge/Made%20with-doc--autobot🤖-green?style=for-the-badge)](https://github.com/hemantpatel011/doc-autobot.git)
+[![Made with doc-autobot](https://img.shields.io/badge/Made%20with-doc--autobot🤖-blue?style=for-the-badge)](https://github.com/hemantpatel011/doc-autobot.git)
