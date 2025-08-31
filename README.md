@@ -44,7 +44,20 @@ We all know this struggle:
 *   **Project Context Awareness**: Intelligently fetches details from `package.json` to create context-aware documentation.
 *   **Works with Any Tech Stack**: A versatile developer tool for any project (Node.js, Python, Go, Rust, etc.).
 
-## [Demo](https://github.com/hemantpatel011/doc-autobot/blob/main/README.md#demo)
+## Demo
+![1](https://github.com/user-attachments/assets/29988f14-da9e-4af3-b9c5-a8d6d5475afa)
+![2](https://github.com/user-attachments/assets/0ffa2c31-43ae-4703-bd42-1c3cc0481e8e)
+![3](https://github.com/user-attachments/assets/1eddafb6-13ef-42a2-8899-b46ab3f717f3)
+
+
+* **BEFORE**
+
+<img width="1885" height="921" alt="Before_Mzackybot" src="https://github.com/user-attachments/assets/feb1b4f5-5108-4d3b-abab-3e3fdd2b6e8e" />
+
+
+* **AFTER**    [View full after repository](https://github.com/hemantpatel011/MackyBot)
+
+  <img width="1891" height="909" alt="Screenshot 2025-08-24 032036" src="https://github.com/user-attachments/assets/711076fc-7baa-4340-b6c3-39b8eb50a57e" />
 
 ## Installation
 
