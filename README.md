@@ -3,7 +3,7 @@
 **Automatically generate `README.md` and `CONTRIBUTING.md` files for any project using the power of Google's Gemini AI. A must-have CLI tool for developers.**
 
 ![Doc Autobot Logo](https://img.shields.io/badge/Doc%20Autobot-CLI%20Tool-blue?style=for-the-badge&logo=github)
-![Version](https://img.shields.io/badge/version-1.0.6-yellow?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-1.0.7-yellow?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 [![Made with doc-autobot](https://img.shields.io/badge/Made%20with-doc--autobot🤖-blue?style=for-the-badge)](https://github.com/hemantpatel011/doc-autobot.git)
 
